@@ -1,0 +1,28 @@
+{
+  "user": [
+    {
+      "id": "1",
+      "name": "Seema",
+      "place": "Mumbai",
+      "phone": "6070000684"
+    },
+    {
+      "id": "2",
+      "name": "N",
+      "place": "des",
+      "phone": "1234445"
+    },
+    {
+      "id": "4",
+      "name": "Sanjay",
+      "place": "Delhi-Mumbai",
+      "phone": "3459679797"
+    },
+    {
+      "id": "5",
+      "name": "n",
+      "place": "kn",
+      "phone": "123944"
+    }
+  ]
+}

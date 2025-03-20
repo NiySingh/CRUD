@@ -1,0 +1,227 @@
+/* Container Styling */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  color: #333;
+}
+
+/* Heading */
+h2 {
+  font-size: 28px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+/* Table Container */
+.table-container {
+  background: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Table Styling */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+th, td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #ccc;
+}
+
+th {
+  background: #34495e;
+  color: #fff;
+  font-weight: bold;
+}
+
+tr:hover {
+  background: #f1f1f1;
+}
+
+/* Button Styling */
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: background 0.3s;
+  font-size: 14px;
+  text-align: center;
+  margin-right: 10px;  /* Add spacing between buttons */
+}
+
+/* Remove margin for the last button */
+td .btn:last-child {
+  margin-right: 0;
+}
+
+/* Button Colors */
+.btn-add {
+  background: #27ae60;
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.btn-add:hover {
+  background: #219150;
+}
+
+.btn-info {
+  background: #3498db;
+  color: #fff;
+}
+
+.btn-info:hover {
+  background: #2980b9;
+}
+
+.btn-primary {
+  background: #f39c12;
+  color: #fff;
+}
+
+.btn-primary:hover {
+  background: #e67e22;
+}
+
+.btn-danger {
+  background: #e74c3c;
+  color: #fff;
+}
+
+.btn-danger:hover {
+  background: #c0392b;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  th, td {
+      padding: 10px;
+  }
+
+  .btn {
+      padding: 6px 12px;
+  }
+}
+
+
+
+
+
+
+
+
+/* Background and layout */
+.create-user-container {
+  min-height: 100vh;              /* Full viewport height */
+  display: flex;                  
+  justify-content: center;        /* Center content horizontally */
+  align-items: center;            /* Center content vertically */
+  background: url('https://images.pexels.com/photos/459976/pexels-photo-459976.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500') no-repeat center center/cover; 
+  color: #333;                    /* Dark font color */
+}
+
+/* Form container */
+.create-user-container form {
+  width: 100%;
+  max-width: 450px;               /* Consistent form width */
+  background: rgba(255, 255, 255, 0.9);  /* Slightly transparent background */
+  padding: 30px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Heading styling */
+.create-user-heading {
+  font-size: 28px;
+  color: #222;                    /* Darker heading color */
+  text-align: center;             /* Center the heading */
+  margin-bottom: 20px;
+}
+
+/* Form inputs */
+.create-user-container form label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+.create-user-container form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: 0.3s;
+}
+
+.create-user-container form input:focus {
+  outline: none;
+  border-color: #4caf50;
+  box-shadow: 0 0 8px #4caf50;
+}
+
+/* Buttons */
+.create-user-container div {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.create-user-container .btn {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-save {
+  background-color: #4caf50;      /* Save button in green */
+}
+
+.btn-save:hover {
+  background-color: #45a049;
+}
+
+.btn-back {
+  background-color: #f44336;      /* Back button in red */
+}
+
+.btn-back:hover {
+  background-color: #d32f2f;
+}
+
+
+/* Error message styling with hover */
+.errorMsg {
+  color: #d32f2f;          /* Red font color for error */
+  font-size: 14px;          /* Slightly smaller font */
+  font-weight: bold;        /* Bold for emphasis */
+  margin-bottom: 10px; 
+  text-align: center;      /* Spacing below the error message */
+  transition: color 0.7s;   /* Smooth transition effect */
+}
+
+/* Hover effect */
+.errorMsg:hover {
+  color: #7e0909;           /* Darker red on hover */
+  cursor: pointer;          /* Pointer cursor on hover */
+}
+
+
+
+
+
+
+
